@@ -1,0 +1,87 @@
+.eafl-manage {
+	.eafl-button,
+	.dataTables_wrapper {
+		margin-top: 20px;
+	}
+}
+
+.dataTables_wrapper {
+		.eafl-manage-datatable {
+			display: table;
+		}
+	}
+
+.eafl-manage-datatable {
+		display: none;
+
+		.eafl-icon {
+			cursor: pointer;
+			color: #444;
+		}
+
+		td {
+			vertical-align: top !important;
+		}
+
+		.eafl-manage-links-name {
+			white-space: nowrap;
+		}
+
+		.eafl-manage-links-description {
+			font-style: italic;
+			max-width: 400px;
+			word-wrap: break-word;
+		}
+
+		.eafl-manage-links-clicks-text {
+			font-size: 10px;
+			color: #666;
+		}
+
+		.eafl-manage-links-clicks-month,
+		.eafl-manage-links-clicks-total,
+		.eafl-link-selection,
+		.eafl-manage-links-shortlink,
+		.eafl-manage-links-url {
+			white-space: nowrap;
+		}
+
+		.eafl-copy-link {
+			font-size: 16px;
+			height: 16px;
+			width: 16px;
+			cursor: pointer;
+			color: #aaa;
+
+			&:hover {
+				color: #444;
+			}
+		}
+	}
+
+
+.eafl-manage-links-actions-tooltip,
+.eafl-manage-categories-actions-tooltip {
+	min-width: 250px;
+	min-height: 90px;
+	font-size: 14px;
+
+	.tooltip-header {
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	a {
+		color: white;
+		display: block;
+		text-decoration: none;
+
+		&.eafl-manage-links-actions-edit {
+			margin-bottom: 10px;
+		}
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

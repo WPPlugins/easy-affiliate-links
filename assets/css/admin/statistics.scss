@@ -1,0 +1,26 @@
+.eafl-statistics {
+	.dataTables_wrapper {
+		margin-top: 20px;
+	}
+}
+
+.dataTables_wrapper {
+    .eafl-statistics-datatable {
+        display: table;
+    }
+}
+
+.eafl-statistics-datatable {
+	display: none;
+
+	.eafl-statistics-data-referrer,
+	.eafl-statistics-data-ip,
+	.eafl-statistics-data-agent {
+		display: block;
+		font-size: 10px;
+		line-height: 12px;
+		max-width: 400px;
+		word-wrap: break-word;
+		color: #777;
+	}
+}
